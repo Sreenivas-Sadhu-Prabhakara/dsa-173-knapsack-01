@@ -12,6 +12,13 @@ The 2D recurrence — best value using the first i items within capacity c — c
 
 **Complexity:** O(n·capacity) time, O(capacity) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
